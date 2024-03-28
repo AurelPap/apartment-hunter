@@ -3,15 +3,16 @@ variables_quantitatives = [
     "price",
     "bedrooms",
     "bathrooms",
-    "sqft_living",
-    "sqft_lot",
+    "m2_living",
+    "m2_price",
+    "m2_lot",
     "floors",
-    "sqft_above",
-    "sqft_basement",
+    "m2_above",
+    "m2_basement",
     "yr_built",
     "yr_renovated",
-    "sqft_living15",
-    "sqft_lot15"
+    "m2_living15",
+    "m2_lot15"
 ]
 
 colors_quantitative = [
@@ -26,7 +27,8 @@ colors_quantitative = [
     '#DAA520',  # Or
     '#1E90FF',  # Bleu dodger
     '#FFA500',  # Orange
-    '#800000'   # Rouge foncé
+    '#800000',  # Rouge foncé
+    '#4682B4'   # Bleu acier
 ]
 
 
