@@ -1,6 +1,5 @@
 # Nomination des variables qualitatives et quantitatives
 variables_quantitatives = [
-    "price",
     "bedrooms",
     "bathrooms",
     "m2_living",
@@ -12,7 +11,8 @@ variables_quantitatives = [
     "yr_built",
     "yr_renovated",
     "m2_living15",
-    "m2_lot15"
+    "m2_lot15",
+    "price"
 ]
 
 colors_quantitative = [
