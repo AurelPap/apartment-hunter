@@ -1,0 +1,20 @@
+# Utiliser l'image Python officielle comme image parent
+FROM python:3.9-slim
+
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /app
+
+# Copier les fichiers nécessaires dans le conteneur
+COPY requirements.txt .
+COPY modele.pkl .
+COPY app.py .
+COPY templates/ templates/
+
+# Installer les dépendances Python
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Exposer le port sur lequel l'application Flask écoute
+EXPOSE 8080
+
+# Définir la commande à exécuter lorsque le conteneur démarre
+CMD ["python", "app.py"]
