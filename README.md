@@ -5,4 +5,4 @@ Dans ce contexte, les techniques de machine learning se révèlent être des out
 
 L'objectif de ce projet est de développer un modèle de prédiction du prix de l'immobilier en utilisant des techniques de machine learning. Nous explorerons différentes approches, telles que ...
 
-Le projet se divise en plusieurs étapes : dans un premier temps, il s'agit de prendre connaissance du jeu de données fourni, puis de s'en approprier, notamment en nettoyant les données et en les préparant à la phase d'apprentissage des modèles de machine learning. Ensuite, il convient de déployer nos modèles sur une application Flask tout en l'encapsulant dans un conteneur pour assurer son fonctionnement à tout moment et n'importe où.
+Le projet se divise en plusieurs étapes : dans un premier temps, il s'agit de prendre connaissance du jeu de données fourni, puis de se l'approprier, notamment en nettoyant les données et en les préparant à la phase d'apprentissage des modèles de machine learning. Ensuite, il convient de déployer nos modèles sur une application Flask tout en l'encapsulant dans un conteneur pour assurer son fonctionnement à tout moment et n'importe où.
